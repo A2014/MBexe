@@ -1223,7 +1223,7 @@ google.maps.event.addDomListener(window, 'load', onSuccess);
                     $td = document.createElement(
                     "td");
                     $td.innerHTML =
-                    '<a data-op="edit" data-id="'+ entry.id +'">Edit</a> | <a data-op="remove" data-id="'+ entry.id +'">Remove</a>';
+                    '<a data-op="edit" data-id="'+ entry.id +'"><i class="material-icons">edit</i></a> | <a data-op="remove" data-id="'+ entry.id +'"><i class="material-icons">delete</i></a>';
                     $tr.appendChild($td);
                     $tr.setAttribute(
                     "id", "entry-"+ entry.id);
@@ -1245,7 +1245,7 @@ google.maps.event.addDomListener(window, 'load', onSuccess);
                     $td = document.createElement(
                     "td");
                     $td.innerHTML =
-                    '<a data-op="edit" data-id="'+ entry.id +'">Edit</a> | <a data-op="remove" data-id="'+ entry.id +'">Remove</a>';
+                    '<a data-op="edit" data-id="'+ entry.id +'"><i class="material-icons">edit</i></a> | <a data-op="remove" data-id="'+ entry.id +'"><i class="material-icons">delete</i></a>';
                     $tr.appendChild($td);
                     },
                     tableRemove:
